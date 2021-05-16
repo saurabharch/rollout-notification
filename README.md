@@ -47,7 +47,7 @@ Node version >= 6.x.x
 Include the settings for each device type. You should only include the settings for the devices that you expect to have. I.e. if your app is only available for android or for ios, you should only include `gcm` or `apn` respectively.
 
 ```js
-import PushNotifications from 'node-pushnotifications';
+import PushNotifications from 'rollout-pushnotification';
 
 const settings = {
     gcm: {
