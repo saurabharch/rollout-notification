@@ -2,12 +2,12 @@
 
 A node.js module for interfacing with Apple Push Notification, Google Cloud Messaging, Windows Push Notification, Web-Push Notification and Amazon Device Messaging services.
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/node-pushnotifications)
-[![NPM version](http://img.shields.io/npm/v/node-pushnotifications.svg?style=flat)](https://npmjs.org/package/node-pushnotifications)
-[![Downloads](http://img.shields.io/npm/dm/node-pushnotifications.svg?style=flat)](https://npmjs.org/package/node-pushnotifications)
-[![Build Status](http://img.shields.io/travis/appfeel/node-pushnotifications.svg?style=flat)](https://travis-ci.org/appfeel/node-pushnotifications)
-[![Coverage Status](https://coveralls.io/repos/github/appfeel/node-pushnotifications/badge.svg?branch=master)](https://coveralls.io/github/appfeel/node-pushnotifications?branch=master)
-[![Dependencies](https://david-dm.org/appfeel/node-pushnotifications/status.svg)](https://david-dm.org/appfeel/node-pushnotifications)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/rollout-pushnotification)
+[![NPM version](http://img.shields.io/npm/v/rollout-pushnotification.svg?style=flat)](https://npmjs.org/package/rollout-pushnotification)
+[![Downloads](http://img.shields.io/npm/dm/rollout-pushnotification.svg?style=flat)](https://npmjs.org/package/rollout-pushnotification)
+[![Build Status](http://img.shields.io/travis/saurabharch/rollout-pushnotification.svg?style=flat)](https://travis-ci.org/saurabharch/rollout-pushnotification)
+[![Coverage Status](https://coveralls.io/repos/github/saurabharch/rollout-pushnotification/badge.svg?branch=master)](https://coveralls.io/github/saurabharch/rollout-pushnotification?branch=master)
+[![Dependencies](https://david-dm.org/appfeel/rollout-pushnotification/status.svg)](https://david-dm.org/saurabharch/rollout-pushnotification)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 - [Installation](#installation)
