@@ -1,0 +1,14 @@
+.DS_Store
+.git
+*.log
+node_modules
+tmp
+.idea
+.vscode/
+test/logs
+coverage
+.sonar
+lib
+release.sh
+.nyc_output
+package-lock.json
