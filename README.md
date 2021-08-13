@@ -6,8 +6,8 @@ A node.js module for interfacing with Apple Push Notification, Google Cloud Mess
 [![NPM version](http://img.shields.io/npm/v/rollout-notification.svg?style=flat)](https://npmjs.org/package/rollout-notification)
 [![Downloads](http://img.shields.io/npm/dm/rollout-notification.svg?style=flat)](https://npmjs.org/package/rollout-notification)
 [![Build Status](http://img.shields.io/travis/saurabharch/rollout-notification.svg?style=flat)](https://travis-ci.org/saurabharch/rollout-notification)
-[![Coverage Status](https://coveralls.io/repos/github/saurabharch/rollout-notification/badge.svg?branch=master)](https://coveralls.io/github/saurabharch/rollout-notification?branch=master)
-[![Dependencies](https://david-dm.org/saurabharch/rollout-notification/status.svg)](https://david-dm.org/saurabharch/rollout-notification)
+[![Coverage Status](https://coveralls.io/repos/github/saurabharch/rollout-notification/badge.svg)](https://coveralls.io/github/saurabharch/rollout-notification)
+[![Dependencies](https://status.david-dm.org/gh/saurabharch/rollout-notification.svg)](https://david-dm.org/saurabharch/rollout-notification)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 - [Installation](#installation)

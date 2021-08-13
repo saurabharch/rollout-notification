@@ -1,7 +1,7 @@
 {
   "name": "rollout-pushnotification",
   "description": "A cross-platform push service for node.js",
-  "version": "1.7.5",
+  "version": "1.7.7",
   "author": {
     "name": "Saurabh Kashyap",
     "email": "saurabh@raindigi.com"
