@@ -1,5 +1,5 @@
 {
-  "name": "rollout-notification",
+  "name": "rollout-pushnotification",
   "description": "A cross-platform push service for node.js",
   "version": "1.7.5",
   "author": {
@@ -93,7 +93,7 @@
     }
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/raindigi/rollout-notification",
+  "homepage": "https://github.com/saurabharch/rollout-notification",
   "license": "MIT",
   "contributors": [
     {
