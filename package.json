@@ -1,7 +1,7 @@
 {
-  "name": "rollout-pushnotification",
+  "name": "rollout-notification",
   "description": "A cross-platform push service for node.js",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "author": {
     "name": "Saurabh Kashyap",
     "email": "saurabh@raindigi.com"
@@ -44,12 +44,12 @@
   ],
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/saurabharch/rollout-pushnotification",
+    "url": "https://github.com/saurabharch/rollout-notification",
     "email": "saurabh@raindigi.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/saurabharch/rollout-pushnotification.git"
+    "url": "https://github.com/saurabharch/rollout-notification.git"
   },
   "dependencies": {
     "@parse/node-apn": "4.1.1",
@@ -93,7 +93,7 @@
     }
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/raindigi/rollout-pushnotification",
+  "homepage": "https://github.com/raindigi/rollout-notification",
   "license": "MIT",
   "contributors": [
     {

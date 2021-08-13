@@ -2,12 +2,12 @@
 
 A node.js module for interfacing with Apple Push Notification, Google Cloud Messaging, Windows Push Notification, Web-Push Notification and Amazon Device Messaging services.
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/rollout-pushnotification)
-[![NPM version](http://img.shields.io/npm/v/rollout-pushnotification.svg?style=flat)](https://npmjs.org/package/rollout-pushnotification)
-[![Downloads](http://img.shields.io/npm/dm/rollout-pushnotification.svg?style=flat)](https://npmjs.org/package/rollout-pushnotification)
-[![Build Status](http://img.shields.io/travis/saurabharch/rollout-pushnotification.svg?style=flat)](https://travis-ci.org/saurabharch/rollout-pushnotification)
-[![Coverage Status](https://coveralls.io/repos/github/saurabharch/rollout-pushnotification/badge.svg?branch=master)](https://coveralls.io/github/saurabharch/rollout-pushnotification?branch=master)
-[![Dependencies](https://david-dm.org/appfeel/rollout-pushnotification/status.svg)](https://david-dm.org/saurabharch/rollout-pushnotification)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/rollout-notification)
+[![NPM version](http://img.shields.io/npm/v/rollout-notification.svg?style=flat)](https://npmjs.org/package/rollout-notification)
+[![Downloads](http://img.shields.io/npm/dm/rollout-notification.svg?style=flat)](https://npmjs.org/package/rollout-notification)
+[![Build Status](http://img.shields.io/travis/saurabharch/rollout-notification.svg?style=flat)](https://travis-ci.org/saurabharch/rollout-notification)
+[![Coverage Status](https://coveralls.io/repos/github/saurabharch/rollout-notification/badge.svg?branch=master)](https://coveralls.io/github/saurabharch/rollout-notification?branch=master)
+[![Dependencies](https://david-dm.org/saurabharch/rollout-notification/status.svg)](https://david-dm.org/saurabharch/rollout-notification)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 - [Installation](#installation)
@@ -25,7 +25,7 @@ A node.js module for interfacing with Apple Push Notification, Google Cloud Mess
 ## Installation
 
 ```bash
-npm install rollout-pushnotification --save
+npm install rollout-notification --save
 ```
 
 ## Requirements
@@ -47,7 +47,7 @@ Node version >= 6.x.x
 Include the settings for each device type. You should only include the settings for the devices that you expect to have. I.e. if your app is only available for android or for ios, you should only include `gcm` or `apn` respectively.
 
 ```js
-import PushNotifications from 'rollout-pushnotification';
+import PushNotifications from 'rollout-notification';
 
 const settings = {
     gcm: {

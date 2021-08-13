@@ -6,6 +6,7 @@ import sinonChai from 'sinon-chai';
 import { spy } from 'sinon';
 import PN from '../../src';
 import {
+  DEFAULT_SETTINGS,
   UNKNOWN_METHOD,
   WEB_METHOD,
   WNS_METHOD,
@@ -172,10 +173,12 @@ describe('push-notifications: instantiation and class properties', () => {
       let pn = new PN();
       expect(pn.getPushMethodByRegId(regIds.androidRegId)).to.equal(GCM_METHOD);
 
+      console.log(regIds);
       expect(
         pn.getPushMethodByRegId(regIds.androidWithAdmSubstringRegId)
       ).to.equal(GCM_METHOD);
 
+      console.log(regIds);
       expect(
         pn.getPushMethodByRegId(regIds.androidWithAmznSubscringRegId)
       ).to.equal(GCM_METHOD);
@@ -188,29 +191,29 @@ describe('push-notifications: instantiation and class properties', () => {
     });
 
     it('iOS / APN', () => {
-      const pn = new PN();
+      let pn = new PN();
       expect(pn.getPushMethodByRegId(regIds.iOSRegId)).to.equal(APN_METHOD);
     });
 
     it('Windows Phone / WNS', () => {
-      const pn = new PN();
+      let pn = new PN();
       expect(pn.getPushMethodByRegId(regIds.windowsPhoneRegId)).to.equal(
         WNS_METHOD
       );
     });
 
     it('Amazon / ADM', () => {
-      const pn = new PN();
+      let pn = new PN();
       expect(pn.getPushMethodByRegId(regIds.amazonRegId)).to.equal(ADM_METHOD);
     });
 
     it('Web / WEB', () => {
-      const pn = new PN();
+      let pn = new PN();
       expect(pn.getPushMethodByRegId(regIds.webRegId)).to.equal(WEB_METHOD);
     });
 
     it('Unknown / UNKNOWN', () => {
-      const pn = new PN();
+      let pn = new PN();
       expect(pn.getPushMethodByRegId(regIds.unknownRegId)).to.equal(
         UNKNOWN_METHOD
       );
