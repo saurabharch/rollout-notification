@@ -1,3 +1,5 @@
+/* eslint-disable import/no-import-module-exports */
+
 import sendGCM from './sendGCM';
 import APN from './sendAPN';
 import sendADM from './sendADM';
