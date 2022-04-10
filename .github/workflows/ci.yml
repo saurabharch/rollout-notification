@@ -4,12 +4,13 @@ on: [push, pull_request]
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: ${{matrix.os}}
 
     strategy:
       matrix:
         node-version: [12.x, 14.x, 15.x, 16.x, 17.x]
-
+        os: [ubuntu-latest, windows-latest]
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -26,6 +27,19 @@ jobs:
         run: npm run lint
       - name: Test
         run: npm test
-      - run: npm publish
+
+  publish:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/master' }}
+    needs: [test]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run semantic-release
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
