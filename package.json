@@ -52,7 +52,8 @@
     "url": "https://github.com/saurabharch/rollout-notification.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "dependencies": {
     "@parse/node-apn": "5.1.3",
