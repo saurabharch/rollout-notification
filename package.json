@@ -63,7 +63,7 @@
     "node-adm": "0.9.1",
     "node-gcm": "1.0.5",
     "ramda": "0.28.0",
-    "web-push": "3.4.5",
+    "web-push": "3.5.0",
     "wns": "0.5.4"
   },
   "devDependencies": {
